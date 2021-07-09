@@ -1,0 +1,66 @@
+<html>
+<head>
+  <title>Company - about</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.3/jquery.validate.min.js"></script>
+  
+</head>
+<body>
+    <header class="header">
+        <H1 align="left"><span class="name_site">Company</span></H1>
+        <div class="container_menu">
+            
+            <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+        
+                <div class="collapse navbar-collapse">
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <li class="nav-item active">
+                    <a class="nav-link" href="index.html"><span class="link_menu">Home</span><span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="register.html"><span class="link_menu">Register</span></a>
+                    </li> 
+                    <li class="nav-item">
+                    <a class="nav-link" href="about.html"><span class="link_menu">About</span></a>
+                    </li>                    
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form>
+                </div>
+            </nav>
+
+        </div>       
+    </header> 
+    <main>
+        <div class="container_form">
+            <form class="r_form">
+                    <label>E-mail</label>
+                    <input type="text" class="form-control" id="mail" name="mail" placeholder="Email" />
+                    <p><span id="valid_email" class="valid_email"></span></p>
+                    <label>Password</label>
+                    <input type="password" class="form-control" id="password" name="password" placeholder="Password" />
+                    <p><span id="valid_pass" class="valid_email"></span></p>
+                    <button type="submit" class="b_submit" name="submit" value="submit" >Register</button>                
+            </form>
+        </div>
+        <script src="js.js"></script>
+    </main> 
+<footer class="footer">
+    <div class="f_container_contacts"></div>
+        <p align="left"><span class="f_contact_title">Contacts</span></p>
+        <ul> 
+            <li><span class="f_contact">Addres: Kharkov</span></span></li>
+            <li><span class="f_contact">Mob: +38 (099) 999-99-99</span></li>
+            <li><span class="f_contact">Email: company@company.com</span></li>
+        </ul>            
+    </div>
+    <div class="f_container_copyright">
+        <p align="center"><span class="copyright">@Company 2021</span></p>
+    </div>
+</footer>
+</body>
+</html>

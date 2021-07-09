@@ -1,0 +1,143 @@
+
+html { 
+    height: 100%; 
+}
+body {
+    min-height:100%;
+    position:relative;    
+    padding-top: 180px;
+
+}
+
+main{
+    min-height:100%;
+    position:relative;
+    left: 0;
+    right: 0;
+    top: 0px;
+    bottom: 0px;
+    margin-left: 50px;
+}
+
+.header {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 120px;
+    background-color: #333333;
+    padding:20px;
+}
+.name_site{
+    margin: 30px;
+    color: #ffffff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.container_menu {
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 50px;
+}
+.link_menu{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font: 12pt/10pt sans-serif;
+    color: #ffffff;
+}
+.footer {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    height: 150px;
+    background-color: #333333;
+   
+}
+.f_container_copyright {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    height: 25px;
+    background-color: #7F7F7F;
+}
+.f_contact_title{
+    margin-left: 20px;
+    font: 16pt/14pt sans-serif;
+    color: #ffffff;
+}
+.f_contact{
+    margin-left: 10px;
+    font: 12pt/10pt sans-serif;
+    color: #ffffff;
+}
+.f_container_contacts{
+    
+    margin: 10px;
+}
+.container_form{
+    position: absolute;
+    left: 25%;
+    right: 25%;
+    top: 5%;
+    height: 350px;
+    padding: 30px;
+    background-color: #333333;
+}
+label{
+    color: white;
+}
+.b_submit{
+    background-color: grey;
+    color: white;
+    border: honeydew;
+    border-width: 3px;
+    border-radius: 3px;
+    width: 20%;
+    height: 50px;
+    position: absolute;
+    left: 40%;
+    right: 40%;
+}
+.r_form{
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+.valid_email{
+    color: white;
+}
+.valid_pass{
+    color: white;
+}
+iframe{
+    position: relative;
+    width: 90%;
+    left: 5%;
+    right: 5%;
+}
+.container_page{
+    position: relative;
+    width: 190%;
+    height: 40%;
+    left: 5%;
+    right: 5%;
+    bottom: 5%;
+    top: 5%;
+}
+.pagination{
+    position: relative;
+    width: 90%;
+    height: 10%;
+    left: 5%;
+    right: 5%;
+    bottom: 5%;
+    top: 5%;
+}
+.page{
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    height: max-content;
+    width:max-content;
+}
